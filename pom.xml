@@ -15,6 +15,7 @@
         <azure.functions.maven.plugin.version>1.14.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>1.4.2</azure.functions.java.library.version>
         <functionAppName>http-trigger-maven-template-1644328397172</functionAppName>
+        <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
     </properties>
 
     <dependencies>
